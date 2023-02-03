@@ -25,7 +25,7 @@ body {
 
 @font-face {
   font-family: Cocogoose;
-  src: url(./fonts/Cocogoose.otf);
+  src: url(../fonts/Cocogoose.otf);
   font-weight: bold;
 }
 
@@ -243,7 +243,7 @@ body.overflow-off {
 
 .hero {
   background-color: rgb(245, 245, 245);
-  background-image: url(./images/mobile_intro_bg.png);
+  background-image: url(../images/mobile_intro_bg.png);
   background-size: cover;
   background-position: -150px 50px;
   background-repeat: no-repeat;
@@ -253,7 +253,7 @@ body.overflow-off {
 .container {
   padding: 15%;
   text-align: center;
-  background-image: url(./images/mobile_intro_bg.png);
+  background-image: url(../images/mobile_intro_bg.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -355,25 +355,6 @@ h2,
   color: #fff;
 }
 
-.image-1 {
-  background: url("images/conf.jpg");
-  background-size: cover;
-}
-
-.special-color h1 {
-  background-image: url(images/orange1.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-clip: padding-box;
-  -webkit-background-clip: text;
-  color: transparent;
-}
-
-.image-2 {
-  background: url("images/conf1.jpg");
-  background-size: cover;
-}
-
 .content-about-img-bg-color {
   display: flex;
   flex-direction: column;
@@ -420,7 +401,6 @@ h2,
   justify-content: center;
   align-items: center;
   color: #fff;
-  /* background-image: url("images/pattern_bg.png"); */
   background-color: #141417 !important;
 }
 
@@ -605,7 +585,7 @@ footer {
 
   .hero {
     background-color: rgb(245, 245, 245);
-    background-image: url("./images/main_big.png");
+    background-image: url("../images/main_big.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0 85px;
@@ -629,7 +609,7 @@ footer {
 
   .container {
     background-color: rgb(245, 245, 245);
-    background-image: url("./images/main_big.png");
+    background-image: url("../images/main_big.png");
     background-position: 0 30px;
     background-size: contain;
     background-repeat: no-repeat;
