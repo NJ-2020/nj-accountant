@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /css/
+Disallow: /images/
+Disallow: /js/
+Disallow: /fonts/
+
+Sitemap: https://njaccountant.co.uk/sitemap.xml
